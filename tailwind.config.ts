@@ -19,6 +19,13 @@ export default {
 		},
 		extend: {
 			colors: {
+				/* Theme-specific colors */
+				navy: 'hsl(var(--navy))',
+				teal: 'hsl(var(--teal))',
+				'dark-gray': 'hsl(var(--dark-gray))',
+				'light-gray': 'hsl(var(--light-gray))',
+				
+				/* Semantic tokens */
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
