@@ -146,36 +146,51 @@ All colors MUST be HSL.
 
   /* Carousel styles */
   .carousel {
-    @apply flex overflow-x-auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
   }
 
   .carousel::-webkit-scrollbar {
     display: none;
   }
 
-  .carousel-track {
-    @apply flex gap-6;
-    min-width: 100%;
-  }
-
-  .card {
-    @apply bg-white rounded-lg shadow-md p-6 flex-shrink-0;
-    scroll-snap-align: start;
-    min-width: 300px;
-  }
-
+  /* Mobile: Vertical scrolling */
   @media (max-width: 767px) {
+    .carousel {
+      @apply flex flex-col overflow-y-auto;
+      scroll-snap-type: y mandatory;
+      max-height: 70vh;
+    }
+    
+    .carousel-track {
+      @apply flex flex-col gap-4;
+      width: 100%;
+    }
+    
     .card {
-      min-width: calc(100vw - 2rem);
+      @apply bg-white rounded-lg shadow-md p-6 flex-shrink-0;
+      scroll-snap-align: start;
+      width: 100%;
+      min-width: unset;
     }
   }
 
+  /* Desktop: Horizontal scrolling */
   @media (min-width: 768px) {
+    .carousel {
+      @apply flex overflow-x-auto;
+      scroll-snap-type: x mandatory;
+    }
+    
+    .carousel-track {
+      @apply flex gap-6;
+      min-width: 100%;
+    }
+    
     .card {
+      @apply bg-white rounded-lg shadow-md p-6 flex-shrink-0;
+      scroll-snap-align: start;
       min-width: calc(33.333% - 1rem);
     }
   }
