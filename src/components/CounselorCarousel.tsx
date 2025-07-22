@@ -16,7 +16,8 @@ const CounselorCarousel = () => {
       blurb: "Hi, I'm Jane—I led my robotics team to nationals and love cracking the code on stellar essays.",
       rate: "$75/hr",
       photo: janeProfile,
-      linkedinUrl: "https://linkedin.com/in/janedoe"
+      linkedinUrl: "https://linkedin.com/in/janedoe",
+      bookingUrl: "https://calendly.com/janedoe-counseling"
     },
     {
       name: "Alex Chen",
@@ -26,7 +27,8 @@ const CounselorCarousel = () => {
       blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
       rate: "$80/hr",
       photo: alexProfile,
-      linkedinUrl: "https://linkedin.com/in/alexchen"
+      linkedinUrl: "https://linkedin.com/in/alexchen",
+      bookingUrl: "https://calendly.com/alexchen-counseling"
     },
     {
       name: "Sarah Johnson",
@@ -36,7 +38,8 @@ const CounselorCarousel = () => {
       blurb: "Pre-med student who mastered the art of showcasing research experience in applications.",
       rate: "$85/hr", 
       photo: sarahProfile,
-      linkedinUrl: "https://linkedin.com/in/sarahjohnson"
+      linkedinUrl: "https://linkedin.com/in/sarahjohnson",
+      bookingUrl: "https://calendly.com/sarahjohnson-counseling"
     }
   ];
 
@@ -118,9 +121,14 @@ const CounselorCarousel = () => {
                       />
                     </a>
                   </div>
-                  <button className="btn-primary w-full">
+                  <a 
+                    href={counselor.bookingUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary w-full inline-block text-center"
+                  >
                     Book Now
-                  </button>
+                  </a>
                 </div>
               ))}
             </div>
