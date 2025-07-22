@@ -12,7 +12,7 @@ const Advantages = () => {
     },
     {
       title: "Real admit lists, proven strategies",
-      description: "Learn from mentors who actually got into top schools and know what admissions officers want to see."
+      description: "Learn from counselors who actually got into top schools and know what admissions officers want to see."
     }
   ];
 

@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-white/20 pt-8 text-center">
           <p className="text-white/80">
-            © {new Date().getFullYear()} Peer Mentor Admissions. All rights reserved.
+            © {new Date().getFullYear()} TopIvyBuddy.com; All rights reserved.
           </p>
         </div>
       </div>

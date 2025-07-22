@@ -15,7 +15,7 @@ const Hero = () => {
           Real College-Admissions Advice from Those Who&apos;ve Been There
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-          Connect 1:1 with peer mentors from top universities—no fluff, just your roadmap to success.
+          Connect 1:1 with counselors from top universities—no fluff, just your roadmap to success.
         </p>
         <button 
           onClick={scrollToCounselors}
