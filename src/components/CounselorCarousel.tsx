@@ -59,7 +59,7 @@ const CounselorCarousel = () => {
     <section id="counselors" className="section-light py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'hsl(var(--navy))' }}>
-          Meet Your Peer Mentors
+          Meet Your Counselors
         </h2>
         
         <div className="relative">
