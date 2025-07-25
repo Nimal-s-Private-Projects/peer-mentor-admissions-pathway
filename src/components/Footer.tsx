@@ -8,15 +8,15 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-black">Company</h3>
             <ul className="space-y-2">
-              <li><a href="#about" className="text-black hover:text-gray-700 transition-colors">About Us</a></li>
-              <li><a href="#faqs" className="text-black hover:text-gray-700 transition-colors">FAQs</a></li>
+              <li><a href="#about" className="text-black">About Us</a></li>
+              <li><a href="#faqs" className="text-black">FAQs</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4 text-black">Support</h3>
             <ul className="space-y-2">
-              <li><a href="#contact" className="text-black hover:text-gray-700 transition-colors">Contact</a></li>
-              <li><a href="#terms" className="text-black hover:text-gray-700 transition-colors">Terms & Privacy</a></li>
+              <li><a href="#contact" className="text-black">Contact</a></li>
+              <li><a href="#terms" className="text-black">Terms & Privacy</a></li>
             </ul>
           </div>
         </div>
