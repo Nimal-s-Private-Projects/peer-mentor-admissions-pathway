@@ -137,25 +137,27 @@ const CounselorCarousel = () => {
                     </p>
                   </div>
                   
-                  <div className="card-footer items-center">
-                    <div className="flex items-center gap-3">
-                      <span className="badge text-sm">{counselor.rate}</span>
-                      <a 
-                        href={counselor.linkedinUrl} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        aria-label={`LinkedIn Profile of ${counselor.name}`}
-                        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors flex-shrink-0"
-                      >
-                        <img 
-                          src={linkedinIcon} 
-                          alt="LinkedIn icon" 
-                          className="w-5 h-5"
-                        />
-                      </a>
+                  <div className="flex flex-col gap-3 mb-6">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-3">
+                        <span className="badge text-sm">{counselor.rate}</span>
+                        <a 
+                          href={counselor.linkedinUrl} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          aria-label={`LinkedIn Profile of ${counselor.name}`}
+                          className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors flex-shrink-0"
+                        >
+                          <img 
+                            src={linkedinIcon} 
+                            alt="LinkedIn icon" 
+                            className="w-5 h-5"
+                          />
+                        </a>
+                      </div>
                     </div>
-                    <div className="text-right flex-shrink-0">
-                      <div className="text-xs text-gray-500 mb-1 whitespace-nowrap">⚡ Usually responds in 1hr</div>
+                    <div className="text-center">
+                      <div className="text-xs text-gray-500">⚡ Usually responds in 1hr</div>
                     </div>
                   </div>
                   
