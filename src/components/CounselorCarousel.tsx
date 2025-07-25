@@ -154,8 +154,8 @@ const CounselorCarousel = () => {
                         />
                       </a>
                     </div>
-                    <div className="text-right flex-shrink-0">
-                      <div className="text-xs text-gray-500 mb-1 whitespace-nowrap">⚡ 1hr</div>
+                    <div className="text-right flex-shrink-0 min-w-0">
+                      <div className="text-[10px] text-gray-500 mb-1 leading-tight">⚡ Usually responds in 1hr</div>
                     </div>
                   </div>
                   
