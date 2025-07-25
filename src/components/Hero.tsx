@@ -9,20 +9,48 @@ const Hero = () => {
   };
 
   return (
-    <header className="hero-gradient min-h-[100vh] md:min-h-[60vh] flex items-center justify-center px-4">
-      <div className="text-center max-w-4xl mx-auto">
-        <h1 className="mb-6 leading-tight">
-          Real College-Admissions Advice from Those Who&apos;ve Been There
+    <header className="hero-gradient min-h-[100vh] md:min-h-[80vh] flex items-center justify-center px-4 relative">
+      <div className="text-center max-w-5xl mx-auto relative z-10">
+        <div className="mb-6 inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
+          <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+          <span className="text-white/90 font-medium text-sm">🔥 Trusted by 2,500+ students</span>
+        </div>
+        
+        <h1 className="mb-8 leading-tight text-white">
+          Get Into Your Dream College With Real Students Who Made It
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-          Connect 1:1 with counselors from top universities—no fluff, just your roadmap to success.
+        
+        <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto leading-relaxed text-white/90 font-medium">
+          1-on-1 mentorship from current students at Harvard, MIT, Stanford & more. 
+          <span className="text-yellow-300 font-bold"> Skip the guesswork.</span>
         </p>
-        <button 
-          onClick={scrollToCounselors}
-          className="btn-primary text-lg"
-        >
-          Browse Counselors
-        </button>
+        
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+          <button 
+            onClick={scrollToCounselors}
+            className="btn-primary text-lg px-8 py-4 text-white shadow-2xl"
+          >
+            🚀 Find Your Mentor Now
+          </button>
+          <div className="text-white/80 text-sm">
+            <span className="font-semibold">Starting at $75/hour</span> • 30-min sessions available
+          </div>
+        </div>
+        
+        <div className="flex justify-center items-center gap-6 text-white/70 text-sm">
+          <div className="flex items-center gap-2">
+            <span className="text-green-400">✓</span>
+            <span>Real students, not consultants</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-green-400">✓</span>
+            <span>Recent admits to top schools</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-green-400">✓</span>
+            <span>Book instantly</span>
+          </div>
+        </div>
       </div>
     </header>
   );

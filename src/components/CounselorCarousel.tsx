@@ -56,11 +56,20 @@ const CounselorCarousel = () => {
   };
 
   return (
-    <section id="counselors" className="section-light py-16 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'hsl(var(--navy))' }}>
-          Meet Your Counselors
-        </h2>
+    <section id="counselors" className="py-20 px-4 bg-white">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-100 to-blue-100 rounded-full px-6 py-2 mb-6">
+            <span className="text-2xl">🎓</span>
+            <span className="text-purple-700 font-semibold text-sm">PROVEN MENTORS</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
+            Your Success Squad
+          </h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Real students who cracked the code to top universities. They've been exactly where you are now.
+          </p>
+        </div>
         
         <div className="relative">
           {/* Navigation arrows - only show on desktop */}
@@ -91,44 +100,79 @@ const CounselorCarousel = () => {
           >
             <div className="carousel-track">
               {counselors.map((counselor, index) => (
-                <div key={index} className="card">
-                  <img 
-                    src={counselor.photo} 
-                    alt={`Photo of ${counselor.name}`}
-                    className="card-photo"
-                  />
-                  <h3 className="card-name">
-                    {counselor.name}, {counselor.school}
-                  </h3>
-                  <p className="card-major">
-                    {counselor.major} • Admits: {counselor.admits}
-                  </p>
-                  <p className="card-blurb">
-                    <em>&ldquo;{counselor.blurb}&rdquo;</em>
-                  </p>
-                  <div className="card-footer">
-                    <span className="badge">{counselor.rate}</span>
-                    <a 
-                      href={counselor.linkedinUrl} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      aria-label={`LinkedIn Profile of ${counselor.name}`}
-                    >
-                      <img 
-                        src={linkedinIcon} 
-                        alt="LinkedIn icon" 
-                        className="linkedin-icon"
-                      />
-                    </a>
+                <div key={index} className="card group">
+                  <div className="flex items-start gap-4 mb-6">
+                    <img 
+                      src={counselor.photo} 
+                      alt={`Photo of ${counselor.name}`}
+                      className="card-photo"
+                    />
+                    <div className="flex-1">
+                      <h3 className="card-name">
+                        {counselor.name}
+                      </h3>
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-2xl">🏛️</span>
+                        <span className="font-bold text-blue-600 text-lg">{counselor.school}</span>
+                      </div>
+                      <p className="text-gray-600 font-medium">{counselor.major}</p>
+                    </div>
                   </div>
+                  
+                  <div className="mb-6">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="text-xl">🎯</span>
+                      <span className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Also Got Into</span>
+                    </div>
+                    <p className="text-gray-800 font-semibold text-lg">{counselor.admits}</p>
+                  </div>
+                  
+                  <div className="mb-6 bg-gray-50 rounded-xl p-4">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-lg">💭</span>
+                      <span className="text-sm font-semibold text-gray-700">WHAT THEY SAY</span>
+                    </div>
+                    <p className="card-blurb text-gray-700 italic">
+                      &ldquo;{counselor.blurb}&rdquo;
+                    </p>
+                  </div>
+                  
+                  <div className="card-footer items-center">
+                    <div className="flex items-center gap-3">
+                      <span className="badge text-sm">{counselor.rate}</span>
+                      <a 
+                        href={counselor.linkedinUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label={`LinkedIn Profile of ${counselor.name}`}
+                        className="p-2 rounded-full bg-blue-50 hover:bg-blue-100 transition-colors"
+                      >
+                        <img 
+                          src={linkedinIcon} 
+                          alt="LinkedIn icon" 
+                          className="w-5 h-5"
+                        />
+                      </a>
+                    </div>
+                    <div className="text-right">
+                      <div className="text-xs text-gray-500 mb-1">⚡ Usually responds in 1hr</div>
+                    </div>
+                  </div>
+                  
                   <a 
                     href={counselor.bookingUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary w-full inline-block text-center"
+                    className="btn-primary w-full inline-block text-center relative overflow-hidden group-hover:scale-105 transition-transform"
                   >
-                    Book Now
+                    📅 Book Your Session
                   </a>
+                  
+                  <div className="mt-3 text-center">
+                    <span className="text-xs text-green-600 font-semibold bg-green-50 px-3 py-1 rounded-full">
+                      ✨ 30-min intro sessions available
+                    </span>
+                  </div>
                 </div>
               ))}
             </div>
