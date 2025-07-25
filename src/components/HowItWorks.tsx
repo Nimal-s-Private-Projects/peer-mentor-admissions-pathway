@@ -4,16 +4,16 @@ import stepsIcon from '@/assets/icons/steps-icons.png';
 const HowItWorks = () => {
   const steps = [
     {
-      title: "Pick Your Mentor",
-      description: "Browse profiles of current students and recent graduates from top universities. Find someone who matches your interests and goals."
+      title: "Choose Your Perfect Mentor",
+      description: "Browse our curated selection of mentors—current students at Harvard, MIT, Stanford, and other elite institutions. Each profile details their academic journey, specialties, and what makes them uniquely qualified to guide your child."
     },
     {
-      title: "Book a Session", 
-      description: "Schedule a 1:1 video call at your convenience. Choose from 30-minute quick chats or full hour strategy sessions."
+      title: "Schedule Your Consultation", 
+      description: "Book a personalized session at your family's convenience. We offer flexible scheduling with same-day availability, including complimentary discovery calls to ensure the perfect fit."
     },
     {
-      title: "Get In-Depth Guidance",
-      description: "Receive personalized advice on essays, extracurriculars, test prep, and everything you need to stand out in admissions."
+      title: "Receive Expert Guidance",
+      description: "Your mentor provides comprehensive, actionable strategies for essays, extracurriculars, test preparation, and application positioning—everything needed to maximize your child's competitive advantage."
     }
   ];
 
@@ -23,13 +23,14 @@ const HowItWorks = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm rounded-full px-6 py-3 mb-6 border border-white/50">
             <span className="text-2xl">⚡</span>
-            <span className="text-purple-700 font-bold text-sm">SUPER SIMPLE PROCESS</span>
+            <span className="text-purple-700 font-bold text-sm">OUR PROVEN PROCESS</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            3 Steps to Success
+            Your Path to Success
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            No complicated forms or waiting lists. Get started in minutes.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            We've refined our approach over years of helping families achieve their college dreams. 
+            Here's our streamlined 3-step process that transforms potential into acceptance letters.
           </p>
         </div>
         
