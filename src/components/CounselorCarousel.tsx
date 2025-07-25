@@ -34,7 +34,7 @@ const CounselorCarousel = () => {
       name: "Rachel Yoon",
       school: "Yale '29",
       major: "Chemical Engineering",
-      admits: "Yale, Princeton, Cornell, Berkeley, Carengie Melon",
+      admits: "Yale, Princeton, Berkeley, Carengie Melon",
       blurb: "Hey there, Im Rachel— I led soil-lead research in OC, founded a countywide environmental justice committee, preside over my debate team, and design freelance—honing my strengths in public speaking, leadership, and design.",
       rate: "$75/hr", 
       photo: sarahProfile,
