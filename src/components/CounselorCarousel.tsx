@@ -12,7 +12,7 @@ const CounselorCarousel = () => {
       name: "Maanya Arora",
       school: "Harvard '29",
       major: "Computer Science",
-      admits: "Harvard, Carnegie Melon - CS, Northwestern, UCLA",
+      admits: "Harvard, Carnegie Melon, UCLA",
       blurb: "Hi, I'm Maanya— I'm interested in exploring the intersection of technology and public policy/human behavior in order to drive real-world impact. In the fall, I plan to study CS with a secondary in Economics.",
       rate: "$75/hr",
       photo: janeProfile,
@@ -23,22 +23,22 @@ const CounselorCarousel = () => {
       name: "Ethan Cho",
       school: "Berkeley'29", 
       major: "Haas - Spieker Business",
-      admits: "Berkeley - Haas, Cornell - Dyson, USC - Marshall, Cypress College",
-      blurb: "Just a young boy trying to become Hokage.",
+      admits: "Yale, Princeton, MIT",
+      blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
       rate: "75/hr",
       photo: alexProfile,
-      linkedinUrl: "https://www.linkedin.com/in/ethan-cho-a2b74b270/",
+      linkedinUrl: "https://linkedin.com/in/alexchen",
       bookingUrl: "https://calendly.com/periasamynimal/30min"
     },
     {
-      name: "Rachel Yoon",
-      school: "Yale '29",
-      major: "Chemical Engineering",
-      admits: "Yale, Princeton, Cornell, Berkeley, Carnegie Melon",
-      blurb: "Hey there, Rachel— I led soil-lead research in OC, founded a countywide environmental justice committee, preside over my debate team, and design freelance—honing my strengths in public speaking, leadership, and design.",
-      rate: "$75/hr", 
+      name: "Sarah Johnson",
+      school: "Harvard '26",
+      major: "Biology",
+      admits: "MIT, Johns Hopkins, Duke",
+      blurb: "Pre-med student who mastered the art of showcasing research experience in applications.",
+      rate: "$85/hr", 
       photo: sarahProfile,
-      linkedinUrl: "https://www.linkedin.com/in/racheljiyoon/",
+      linkedinUrl: "https://linkedin.com/in/sarahjohnson",
       bookingUrl: "https://calendly.com/periasamynimal/30min"
     }
   ];
@@ -130,7 +130,7 @@ const CounselorCarousel = () => {
                   <div className="mb-6 bg-gray-50 rounded-xl p-4">
                     <div className="flex items-center gap-2 mb-2">
                       <span className="text-lg">💭</span>
-                      <span className="text-sm font-semibold text-gray-700">WHAT THEY SAY</span>
+                      <span className="text-sm font-semibold text-gray-700">Who Are You?</span>
                     </div>
                     <p className="card-blurb text-gray-700 italic">
                       &ldquo;{counselor.blurb}&rdquo;
