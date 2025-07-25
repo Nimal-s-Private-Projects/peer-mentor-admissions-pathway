@@ -145,7 +145,7 @@ const CounselorCarousel = () => {
                         target="_blank" 
                         rel="noopener noreferrer"
                         aria-label={`LinkedIn Profile of ${counselor.name}`}
-                        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors flex-shrink-0"
                       >
                         <img 
                           src={linkedinIcon} 
@@ -154,8 +154,8 @@ const CounselorCarousel = () => {
                         />
                       </a>
                     </div>
-                    <div className="text-right">
-                      <div className="text-xs text-gray-500 mb-1">⚡ Usually responds in 1hr</div>
+                    <div className="text-right flex-shrink-0">
+                      <div className="text-xs text-gray-500 mb-1 whitespace-nowrap">⚡ 1hr</div>
                     </div>
                   </div>
                   
