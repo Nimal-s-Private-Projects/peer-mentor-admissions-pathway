@@ -100,78 +100,82 @@ const CounselorCarousel = () => {
           >
             <div className="carousel-track">
               {counselors.map((counselor, index) => (
-                <div key={index} className="card group">
-                  <div className="flex items-start gap-4 mb-6">
-                    <img 
-                      src={counselor.photo} 
-                      alt={`Photo of ${counselor.name}`}
-                      className="card-photo"
-                    />
-                    <div className="flex-1">
-                      <h3 className="card-name">
-                        {counselor.name}
-                      </h3>
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="text-2xl">🏛️</span>
-                        <span className="font-bold text-lg" style={{ color: 'hsl(215, 28%, 33%)' }}>{counselor.school}</span>
+                <div key={index} className="card group md:flex md:flex-col">
+                  <div className="md:flex-1">
+                    <div className="flex items-start gap-4 mb-6">
+                      <img 
+                        src={counselor.photo} 
+                        alt={`Photo of ${counselor.name}`}
+                        className="card-photo"
+                      />
+                      <div className="flex-1">
+                        <h3 className="card-name">
+                          {counselor.name}
+                        </h3>
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="text-2xl">🏛️</span>
+                          <span className="font-bold text-lg" style={{ color: 'hsl(215, 28%, 33%)' }}>{counselor.school}</span>
+                        </div>
+                        <p className="text-gray-600 font-medium">{counselor.major}</p>
                       </div>
-                      <p className="text-gray-600 font-medium">{counselor.major}</p>
+                    </div>
+                    
+                    <div className="mb-6">
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-xl">🎯</span>
+                        <span className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Also Got Into</span>
+                      </div>
+                      <p className="text-gray-800 font-semibold text-lg">{counselor.admits}</p>
+                    </div>
+                    
+                    <div className="mb-6 bg-gray-50 rounded-xl p-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-lg">💭</span>
+                        <span className="text-sm font-semibold text-gray-700">Who Are You?</span>
+                      </div>
+                      <p className="card-blurb text-gray-700 italic">
+                        &ldquo;{counselor.blurb}&rdquo;
+                      </p>
                     </div>
                   </div>
                   
-                  <div className="mb-6">
-                    <div className="flex items-center gap-2 mb-3">
-                      <span className="text-xl">🎯</span>
-                      <span className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Also Got Into</span>
+                  <div className="md:mt-auto">
+                    <div className="card-footer items-center">
+                      <div className="flex items-center gap-3 flex-1 min-w-0">
+                        <span className="badge text-sm flex-shrink-0">{counselor.rate}</span>
+                        <a 
+                          href={counselor.linkedinUrl} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          aria-label={`LinkedIn Profile of ${counselor.name}`}
+                          className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors flex-shrink-0"
+                        >
+                          <img 
+                            src={linkedinIcon} 
+                            alt="LinkedIn icon" 
+                            className="w-5 h-5"
+                          />
+                        </a>
+                      </div>
+                      <div className="text-right flex-shrink-0">
+                        <div className="text-[10px] text-gray-500 mb-1 leading-tight">⚡ Usually responds in 1hr</div>
+                      </div>
                     </div>
-                    <p className="text-gray-800 font-semibold text-lg">{counselor.admits}</p>
-                  </div>
-                  
-                  <div className="mb-6 bg-gray-50 rounded-xl p-4">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-lg">💭</span>
-                      <span className="text-sm font-semibold text-gray-700">Who Are You?</span>
+                    
+                    <a 
+                      href={counselor.bookingUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-primary w-full inline-block text-center relative overflow-hidden group-hover:scale-105 transition-transform"
+                    >
+                      📅 Book Your Session
+                    </a>
+                    
+                    <div className="mt-3 text-center">
+                      <span className="text-xs font-semibold bg-gray-50 px-3 py-1 rounded-full" style={{ color: 'hsl(107, 17%, 45%)' }}>
+                        ✨ 30-min intro sessions available
+                      </span>
                     </div>
-                    <p className="card-blurb text-gray-700 italic">
-                      &ldquo;{counselor.blurb}&rdquo;
-                    </p>
-                  </div>
-                  
-                  <div className="card-footer items-center">
-                    <div className="flex items-center gap-3 flex-1 min-w-0">
-                      <span className="badge text-sm flex-shrink-0">{counselor.rate}</span>
-                      <a 
-                        href={counselor.linkedinUrl} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        aria-label={`LinkedIn Profile of ${counselor.name}`}
-                        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors flex-shrink-0"
-                      >
-                        <img 
-                          src={linkedinIcon} 
-                          alt="LinkedIn icon" 
-                          className="w-5 h-5"
-                        />
-                      </a>
-                    </div>
-                    <div className="text-right flex-shrink-0">
-                      <div className="text-[10px] text-gray-500 mb-1 leading-tight">⚡ Usually responds in 1hr</div>
-                    </div>
-                  </div>
-                  
-                  <a 
-                    href={counselor.bookingUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary w-full inline-block text-center relative overflow-hidden group-hover:scale-105 transition-transform"
-                  >
-                    📅 Book Your Session
-                  </a>
-                  
-                  <div className="mt-3 text-center">
-                    <span className="text-xs font-semibold bg-gray-50 px-3 py-1 rounded-full" style={{ color: 'hsl(107, 17%, 45%)' }}>
-                      ✨ 30-min intro sessions available
-                    </span>
                   </div>
                 </div>
               ))}
