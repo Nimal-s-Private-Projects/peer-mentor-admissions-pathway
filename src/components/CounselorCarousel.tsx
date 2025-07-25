@@ -20,9 +20,9 @@ const CounselorCarousel = () => {
       bookingUrl: "https://calendly.com/periasamynimal/30min"
     },
     {
-      name: "Ethan Chp",
-      school: "UC Berkeley Haas '29", 
-      major: "Spieker Undergraduate Business Program",
+      name: "Ethan Cho",
+      school: "UC Berkeley'29", 
+      major: "Business",
       admits: "Yale, Princeton, MIT",
       blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
       rate: "$80/hr",
