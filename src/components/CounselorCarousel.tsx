@@ -9,26 +9,26 @@ const CounselorCarousel = () => {
 
   const counselors = [
     {
-      name: "Jane Doe",
-      school: "MIT '26",
+      name: "Maanya Arora",
+      school: "Harvard '29",
       major: "Computer Science",
-      admits: "Harvard, Stanford, Caltech",
-      blurb: "Hi, I'm Jane—I led my robotics team to nationals and love cracking the code on stellar essays.",
+      admits: "Harvard, Carnegie Melon, UCLA",
+      blurb: "Hi, I'm Maanya— I'm interested in exploring the intersection of technology and public policy/human behavior in order to drive real-world impact. In the fall, I plan to study CS with a secondary in Economics.",
       rate: "$75/hr",
       photo: janeProfile,
-      linkedinUrl: "https://linkedin.com/in/janedoe",
+      linkedinUrl: "https://www.linkedin.com/in/maanyaarora07/",
       bookingUrl: "https://calendly.com/periasamynimal/30min"
     },
     {
-      name: "Alex Chen",
-      school: "Stanford '25", 
-      major: "Economics",
+      name: "Ethan Chp",
+      school: "UC Berkeley Haas '29", 
+      major: "Spieker Undergraduate Business Program",
       admits: "Yale, Princeton, MIT",
       blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
       rate: "$80/hr",
       photo: alexProfile,
       linkedinUrl: "https://linkedin.com/in/alexchen",
-      bookingUrl: "https://calendly.com/alexchen-counseling"
+      bookingUrl: "https://calendly.com/periasamynimal/30min"
     },
     {
       name: "Sarah Johnson",
@@ -39,7 +39,7 @@ const CounselorCarousel = () => {
       rate: "$85/hr", 
       photo: sarahProfile,
       linkedinUrl: "https://linkedin.com/in/sarahjohnson",
-      bookingUrl: "https://calendly.com/sarahjohnson-counseling"
+      bookingUrl: "https://calendly.com/periasamynimal/30min"
     }
   ];
 
@@ -170,7 +170,7 @@ const CounselorCarousel = () => {
                   
                   <div className="mt-3 text-center">
                     <span className="text-xs font-semibold bg-gray-50 px-3 py-1 rounded-full" style={{ color: 'hsl(107, 17%, 45%)' }}>
-                      ✨ FREE 30-min intro sessions available NOW
+                      ✨ 30-min intro sessions available
                     </span>
                   </div>
                 </div>
