@@ -101,18 +101,18 @@ const CounselorCarousel = () => {
             <div className="carousel-track">
               {counselors.map((counselor, index) => (
                 <div key={index} className="card group">
-                  <div className="flex items-start gap-4 mb-6">
+                  <div className="flex items-center gap-4 mb-6">
                     <img 
                       src={counselor.photo} 
                       alt={`Photo of ${counselor.name}`}
-                      className="card-photo"
+                      className="card-photo flex-shrink-0"
                     />
-                    <div className="flex-1">
-                      <h3 className="card-name">
+                    <div className="flex-1 text-left">
+                      <h3 className="card-name mb-2">
                         {counselor.name}
                       </h3>
                       <div className="flex items-center gap-2 mb-2">
-                        <span className="text-2xl">🏛️</span>
+                        <span className="text-lg">🏛️</span>
                         <span className="font-bold text-lg" style={{ color: 'hsl(215, 28%, 33%)' }}>{counselor.school}</span>
                       </div>
                       <p className="text-gray-600 font-medium">{counselor.major}</p>
@@ -137,7 +137,7 @@ const CounselorCarousel = () => {
                     </p>
                   </div>
                   
-                  <div className="card-footer items-center">
+                  <div className="flex items-center justify-between mb-6">
                     <div className="flex items-center gap-3">
                       <span className="badge text-sm">{counselor.rate}</span>
                       <a 
@@ -155,7 +155,7 @@ const CounselorCarousel = () => {
                       </a>
                     </div>
                     <div className="text-right">
-                      <div className="text-xs text-gray-500 mb-1">⚡ Usually responds in 1hr</div>
+                      <div className="text-xs text-gray-500">⚡ Usually responds in 1hr</div>
                     </div>
                   </div>
                   
@@ -163,12 +163,12 @@ const CounselorCarousel = () => {
                     href={counselor.bookingUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary w-full inline-block text-center relative overflow-hidden group-hover:scale-105 transition-transform"
+                    className="btn-primary w-full inline-block text-center mb-3"
                   >
                     📅 Book Your Session
                   </a>
                   
-                  <div className="mt-3 text-center">
+                  <div className="text-center">
                     <span className="text-xs font-semibold bg-gray-50 px-3 py-1 rounded-full" style={{ color: 'hsl(107, 17%, 45%)' }}>
                       ✨ 30-min intro sessions available
                     </span>
