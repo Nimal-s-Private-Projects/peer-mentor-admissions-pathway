@@ -11,6 +11,12 @@ const Hero = () => {
   return (
     <header className="hero-gradient min-h-[100vh] md:min-h-[80vh] flex items-center justify-center px-4 relative">
       <div className="text-center max-w-5xl mx-auto relative z-10">
+        <div className="mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 tracking-wide">
+            TopIvyBuddy
+          </h2>
+        </div>
+        
         <div className="mb-6 inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
           <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
           <span className="text-white/90 font-medium text-sm">🔥 Trusted by 2,500+ students</span>
