@@ -12,7 +12,7 @@ const CounselorCarousel = () => {
       name: "Maanya Arora",
       school: "Harvard '29",
       major: "Computer Science",
-      admits: "Harvard, Carnegie Melon, UCLA",
+      admits: "Harvard, Carnegie Melon, Northwestern, UCLA",
       blurb: "Hi, I'm Maanya— I'm interested in exploring the intersection of technology and public policy/human behavior in order to drive real-world impact. In the fall, I plan to study CS with a secondary in Economics.",
       rate: "$75/hr",
       photo: janeProfile,
@@ -23,11 +23,11 @@ const CounselorCarousel = () => {
       name: "Ethan Cho",
       school: "Berkeley'29", 
       major: "Haas - Spieker Business",
-      admits: "Yale, Princeton, MIT",
-      blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
+      admits: "Berkeley - Haas, Cornell Dyson, USC Marshall, Cypress College",
+      blurb: "Just a young boy trying to become Hokage.",
       rate: "75/hr",
       photo: alexProfile,
-      linkedinUrl: "https://linkedin.com/in/alexchen",
+      linkedinUrl: "https://www.linkedin.com/in/ethan-cho-a2b74b270/",
       bookingUrl: "https://calendly.com/periasamynimal/30min"
     },
     {
