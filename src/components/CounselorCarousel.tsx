@@ -31,14 +31,14 @@ const CounselorCarousel = () => {
       bookingUrl: "https://calendly.com/periasamynimal/30min"
     },
     {
-      name: "Sarah Johnson",
-      school: "Harvard '26",
-      major: "Biology",
-      admits: "MIT, Johns Hopkins, Duke",
-      blurb: "Pre-med student who mastered the art of showcasing research experience in applications.",
-      rate: "$85/hr", 
+      name: "Rachel Yoon",
+      school: "Yale '29",
+      major: "Chemical Engineering",
+      admits: "Yale, Princeton, Cornell, Berkeley, Carengie Melon",
+      blurb: "Hey there, Im Rachel— I led soil-lead research in OC, founded a countywide environmental justice committee, preside over my debate team, and design freelance—honing my strengths in public speaking, leadership, and design.",
+      rate: "$75/hr", 
       photo: sarahProfile,
-      linkedinUrl: "https://linkedin.com/in/sarahjohnson",
+      linkedinUrl: "https://www.linkedin.com/in/racheljiyoon/",
       bookingUrl: "https://calendly.com/periasamynimal/30min"
     }
   ];
