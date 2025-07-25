@@ -61,7 +61,7 @@ const CounselorCarousel = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 rounded-full px-6 py-2 mb-6" style={{ background: 'linear-gradient(90deg, hsl(215, 28%, 33%, 0.1), hsl(107, 17%, 45%, 0.1))' }}>
             <span className="text-2xl">🎓</span>
-            <span className="font-semibold text-sm" style={{ color: 'hsl(215, 28%, 33%)' }}>PROVEN MENTORS</span>
+            <span className="font-semibold text-sm" style={{ color: 'hsl(215, 28%, 33%)' }}>BATTLE-TESTED COUNSELORS</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
             Meet Our Team
