@@ -275,13 +275,13 @@ All colors MUST be HSL.
   /* Desktop: Horizontal scrolling */
   @media (min-width: 768px) {
     .carousel {
-      @apply flex overflow-x-auto;
+      @apply flex overflow-x-auto justify-center;
       scroll-snap-type: x mandatory;
     }
     
     .carousel-track {
-      @apply flex gap-6;
-      min-width: 100%;
+      @apply flex gap-6 justify-center;
+      min-width: fit-content;
     }
     
     .card {
