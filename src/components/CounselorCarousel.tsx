@@ -25,7 +25,7 @@ const CounselorCarousel = () => {
       major: "Haas - Spieker Business",
       admits: "Berkeley - Haas, Cornell Dyson, USC Marshall, Cypress College",
       blurb: "Just a young boy trying to become Hokage.",
-      rate: "75/hr",
+      rate: "$75/hr",
       photo: alexProfile,
       linkedinUrl: "https://www.linkedin.com/in/ethan-cho-a2b74b270/",
       bookingUrl: "https://calendly.com/periasamynimal/30min"
