@@ -21,11 +21,11 @@ const CounselorCarousel = () => {
     },
     {
       name: "Ethan Cho",
-      school: "UC-Berkeley'29", 
-      major: "Business",
+      school: "Berkeley'29", 
+      major: "Haas - Business",
       admits: "Yale, Princeton, MIT",
       blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
-      rate: "$80/hr",
+      rate: "75/hr",
       photo: alexProfile,
       linkedinUrl: "https://linkedin.com/in/alexchen",
       bookingUrl: "https://calendly.com/periasamynimal/30min"
