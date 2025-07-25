@@ -138,8 +138,8 @@ const CounselorCarousel = () => {
                   </div>
                   
                   <div className="card-footer items-center">
-                    <div className="flex items-center gap-3 flex-1 min-w-0">
-                      <span className="badge text-sm flex-shrink-0">{counselor.rate}</span>
+                    <div className="flex items-center gap-3">
+                      <span className="badge text-sm">{counselor.rate}</span>
                       <a 
                         href={counselor.linkedinUrl} 
                         target="_blank" 
@@ -154,7 +154,7 @@ const CounselorCarousel = () => {
                         />
                       </a>
                     </div>
-                    <div className="text-right flex-shrink-0">
+                    <div className="text-right flex-shrink-0 min-w-0">
                       <div className="text-[10px] text-gray-500 mb-1 leading-tight">⚡ Usually responds in 1hr</div>
                     </div>
                   </div>
