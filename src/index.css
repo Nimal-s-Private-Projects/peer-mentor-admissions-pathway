@@ -261,13 +261,14 @@ All colors MUST be HSL.
       border-radius: 20px;
       padding: 32px;
       box-shadow: var(--shadow-card);
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.2s ease-out;
       width: 100%;
       flex-shrink: 0;
       border: 1px solid hsl(var(--gray-100));
       position: relative;
       overflow: hidden;
       scroll-snap-align: start;
+      will-change: transform;
     }
   }
 
@@ -288,13 +289,14 @@ All colors MUST be HSL.
       border-radius: 20px;
       padding: 32px;
       box-shadow: var(--shadow-card);
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.2s ease-out;
       width: 320px;
       flex-shrink: 0;
       border: 1px solid hsl(var(--gray-100));
       position: relative;
       overflow: hidden;
       scroll-snap-align: start;
+      will-change: transform;
     }
   }
 
@@ -307,7 +309,7 @@ All colors MUST be HSL.
     height: 4px;
     background: var(--gradient-primary);
     transform: scaleX(0);
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease-out;
   }
 
   .card:hover::before {
@@ -315,8 +317,7 @@ All colors MUST be HSL.
   }
 
   .card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 20px 50px -10px hsl(220 26% 9% / 0.2);
+    transform: translate3d(0, -4px, 0);
   }
 
   .card-photo {
@@ -327,11 +328,12 @@ All colors MUST be HSL.
     margin-bottom: 20px;
     border: 4px solid white;
     box-shadow: 0 8px 20px -6px hsl(220 26% 9% / 0.15);
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease-out;
+    will-change: transform;
   }
 
   .card:hover .card-photo {
-    transform: scale(1.05);
+    transform: translate3d(0, 0, 0) scale(1.02);
   }
 
   .card-name {
