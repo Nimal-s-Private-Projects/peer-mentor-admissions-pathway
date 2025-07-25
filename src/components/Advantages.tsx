@@ -4,11 +4,11 @@ const Advantages = () => {
   const advantages = [
     {
       title: "Personal insight, not generic coaching",
-      description: "We give you authentic advice as students who recently went through the same process you're facing."
+      description: "We give you authentic advice as students who recently went through the exact same process you're facing."
     },
     {
       title: "100% remote, fully on your schedule", 
-      description: "Meet with us from anywhere at times that work for you. No commuting, no scheduling conflicts."
+      description: "Meet with us from anywhere, at times that work for you. No commuting, no scheduling conflicts."
     },
     {
       title: "Real admit lists, proven strategies",

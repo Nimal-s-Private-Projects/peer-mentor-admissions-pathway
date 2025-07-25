@@ -170,7 +170,7 @@ const CounselorCarousel = () => {
                   
                   <div className="mt-3 text-center">
                     <span className="text-xs font-semibold bg-gray-50 px-3 py-1 rounded-full" style={{ color: 'hsl(107, 17%, 45%)' }}>
-                      ✨ 30-min intro sessions available
+                      ✨ FREE 30-min intro sessions available NOW
                     </span>
                   </div>
                 </div>

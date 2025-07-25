@@ -44,11 +44,11 @@ const Hero = () => {
         <div className="flex justify-center items-center gap-6 text-white/70 text-sm">
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>
-            <span>Real students, Not 45yo out-of-touch Advisors</span>
+            <span>Real students, not 40yo out-of-touch Advisors</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>
-            <span>Recent admits to top schools</span>
+            <span>Recent admits to THE top schools</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>
