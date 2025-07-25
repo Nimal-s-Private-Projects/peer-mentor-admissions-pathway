@@ -25,7 +25,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto leading-relaxed text-white/90 font-medium">
-          Our team of current students at Harvard, MIT, Stanford & more will guide you personally. 
+          Our team of current students at Harvard, Yale, UC Berkeley & more will guide you personally. 
           <span className="text-yellow-300 font-bold"> Skip the guesswork.</span>
         </p>
         
@@ -37,14 +37,14 @@ const Hero = () => {
             🚀 Meet Our Team
           </button>
           <div className="text-white/80 text-sm">
-            <span className="font-semibold">Starting at $75/hour</span> • 30-min sessions available
+            <span className="font-semibold">Starting at $75/hour</span> • 30-min free consultation available
           </div>
         </div>
         
         <div className="flex justify-center items-center gap-6 text-white/70 text-sm">
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>
-            <span>Our counselors, not consultants</span>
+            <span>Real students, not 40yo out-of-touch Advisors</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>
