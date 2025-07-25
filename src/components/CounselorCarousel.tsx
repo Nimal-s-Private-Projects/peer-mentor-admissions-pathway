@@ -61,14 +61,13 @@ const CounselorCarousel = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-100 to-blue-100 rounded-full px-6 py-2 mb-6">
             <span className="text-2xl">🎓</span>
-            <span className="text-purple-700 font-semibold text-sm">OUR ELITE MENTORS</span>
+            <span className="text-purple-700 font-semibold text-sm">PROVEN MENTORS</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
-            Meet Your Child's Future Mentors
+            Your Success Squad
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our carefully selected mentors are current students at the nation's most prestigious universities. 
-            They've navigated the exact journey your child is about to embark on—and they know what it takes to succeed.
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Real students who cracked the code to top universities. They've been exactly where you are now.
           </p>
         </div>
         
@@ -166,12 +165,12 @@ const CounselorCarousel = () => {
                     rel="noopener noreferrer"
                     className="btn-primary w-full inline-block text-center relative overflow-hidden group-hover:scale-105 transition-transform"
                   >
-                    📅 Schedule Consultation
+                    📅 Book Your Session
                   </a>
                   
                   <div className="mt-3 text-center">
                     <span className="text-xs text-green-600 font-semibold bg-green-50 px-3 py-1 rounded-full">
-                      ✨ Complimentary 30-min discovery calls available
+                      ✨ 30-min intro sessions available
                     </span>
                   </div>
                 </div>
