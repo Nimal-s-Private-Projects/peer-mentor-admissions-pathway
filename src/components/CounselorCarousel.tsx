@@ -21,7 +21,7 @@ const CounselorCarousel = () => {
     },
     {
       name: "Ethan Cho",
-      school: "UC Berkeley'29", 
+      school: "UC-Berkeley'29", 
       major: "Business",
       admits: "Yale, Princeton, MIT",
       blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
