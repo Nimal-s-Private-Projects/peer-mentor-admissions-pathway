@@ -59,9 +59,9 @@ const CounselorCarousel = () => {
     <section id="counselors" className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-100 to-blue-100 rounded-full px-6 py-2 mb-6">
+          <div className="inline-flex items-center gap-2 rounded-full px-6 py-2 mb-6" style={{ background: 'linear-gradient(90deg, hsl(215, 28%, 33%, 0.1), hsl(107, 17%, 45%, 0.1))' }}>
             <span className="text-2xl">🎓</span>
-            <span className="text-purple-700 font-semibold text-sm">PROVEN MENTORS</span>
+            <span className="font-semibold text-sm" style={{ color: 'hsl(215, 28%, 33%)' }}>PROVEN MENTORS</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
             Your Success Squad
@@ -113,7 +113,7 @@ const CounselorCarousel = () => {
                       </h3>
                       <div className="flex items-center gap-2 mb-2">
                         <span className="text-2xl">🏛️</span>
-                        <span className="font-bold text-blue-600 text-lg">{counselor.school}</span>
+                        <span className="font-bold text-lg" style={{ color: 'hsl(215, 28%, 33%)' }}>{counselor.school}</span>
                       </div>
                       <p className="text-gray-600 font-medium">{counselor.major}</p>
                     </div>
@@ -145,7 +145,7 @@ const CounselorCarousel = () => {
                         target="_blank" 
                         rel="noopener noreferrer"
                         aria-label={`LinkedIn Profile of ${counselor.name}`}
-                        className="p-2 rounded-full bg-blue-50 hover:bg-blue-100 transition-colors"
+                        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
                       >
                         <img 
                           src={linkedinIcon} 
@@ -169,7 +169,7 @@ const CounselorCarousel = () => {
                   </a>
                   
                   <div className="mt-3 text-center">
-                    <span className="text-xs text-green-600 font-semibold bg-green-50 px-3 py-1 rounded-full">
+                    <span className="text-xs font-semibold bg-gray-50 px-3 py-1 rounded-full" style={{ color: 'hsl(107, 17%, 45%)' }}>
                       ✨ 30-min intro sessions available
                     </span>
                   </div>
