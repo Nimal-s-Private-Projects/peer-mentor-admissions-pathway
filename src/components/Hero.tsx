@@ -16,8 +16,12 @@ const Hero = () => {
           <span className="text-white/90 font-medium text-sm">🔥 Trusted by 2,500+ students</span>
         </div>
         
-        <h1 className="mb-8 leading-tight text-white">
-          Get Into Your Dream College With Real Students Who Made It
+        <h1 className="mb-8 leading-tight">
+          <span className="text-white">Get Into Your </span>
+          <span className="text-yellow-300">Dream College</span>
+          <span className="text-white"> With </span>
+          <span className="text-yellow-300">Real Students</span>
+          <span className="text-white"> Who Made It</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto leading-relaxed text-white/90 font-medium">
