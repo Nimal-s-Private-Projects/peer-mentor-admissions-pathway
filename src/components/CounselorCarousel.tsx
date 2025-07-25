@@ -22,7 +22,7 @@ const CounselorCarousel = () => {
     {
       name: "Ethan Cho",
       school: "Berkeley'29", 
-      major: "Haas - Business",
+      major: "Haas - Spieker Business",
       admits: "Yale, Princeton, MIT",
       blurb: "Former debate captain who turned his passion for policy into compelling personal statements.",
       rate: "75/hr",
