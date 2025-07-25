@@ -64,10 +64,10 @@ const CounselorCarousel = () => {
             <span className="font-semibold text-sm" style={{ color: 'hsl(215, 28%, 33%)' }}>PROVEN MENTORS</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
-            Your Success Squad
+            Meet Our Team
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Real students who cracked the code to top universities. They've been exactly where you are now.
+            We're students who cracked the code to top universities. We've been exactly where you are now.
           </p>
         </div>
         

@@ -25,7 +25,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto leading-relaxed text-white/90 font-medium">
-          1-on-1 mentorship from current students at Harvard, MIT, Stanford & more. 
+          Our team of current students at Harvard, MIT, Stanford & more will guide you personally. 
           <span className="text-yellow-300 font-bold"> Skip the guesswork.</span>
         </p>
         
@@ -34,7 +34,7 @@ const Hero = () => {
             onClick={scrollToCounselors}
             className="btn-primary text-lg px-8 py-4 text-white shadow-2xl"
           >
-            🚀 Find Your Mentor Now
+            🚀 Meet Our Team
           </button>
           <div className="text-white/80 text-sm">
             <span className="font-semibold">Starting at $75/hour</span> • 30-min sessions available
@@ -44,11 +44,11 @@ const Hero = () => {
         <div className="flex justify-center items-center gap-6 text-white/70 text-sm">
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>
-            <span>Real students, not consultants</span>
+            <span>Our counselors, not consultants</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>
-            <span>Recent admits to top schools</span>
+            <span>We got into top schools recently</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-400">✓</span>

@@ -3,16 +3,16 @@ import React from 'react';
 const Advantages = () => {
   const advantages = [
     {
-      title: "Peer-to-peer insight, not generic coaching",
-      description: "Get authentic advice from students who recently went through the same process you're facing."
+      title: "Personal insight, not generic coaching",
+      description: "We give you authentic advice as students who recently went through the same process you're facing."
     },
     {
       title: "100% remote, fully on your schedule", 
-      description: "Meet from anywhere at times that work for you. No commuting, no scheduling conflicts."
+      description: "Meet with us from anywhere at times that work for you. No commuting, no scheduling conflicts."
     },
     {
       title: "Real admit lists, proven strategies",
-      description: "Learn from counselors who actually got into top schools and know what admissions officers want to see."
+      description: "We actually got into top schools and know what admissions officers want to see."
     }
   ];
 

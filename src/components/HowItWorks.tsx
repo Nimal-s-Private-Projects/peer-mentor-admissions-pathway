@@ -4,16 +4,16 @@ import stepsIcon from '@/assets/icons/steps-icons.png';
 const HowItWorks = () => {
   const steps = [
     {
-      title: "Pick Your Mentor",
-      description: "Browse profiles of current students and recent graduates from top universities. Find someone who matches your interests and goals."
+      title: "Pick Your Counselor",
+      description: "Browse our team of current students and recent graduates from top universities. Find someone who matches your interests and goals."
     },
     {
       title: "Book a Session", 
-      description: "Schedule a 1:1 video call at your convenience. Choose from 30-minute quick chats or full hour strategy sessions."
+      description: "Schedule a 1:1 video call with us at your convenience. Choose from 30-minute quick chats or full hour strategy sessions."
     },
     {
       title: "Get In-Depth Guidance",
-      description: "Receive personalized advice on essays, extracurriculars, test prep, and everything you need to stand out in admissions."
+      description: "We'll give you personalized advice on essays, extracurriculars, test prep, and everything you need to stand out in admissions."
     }
   ];
 
