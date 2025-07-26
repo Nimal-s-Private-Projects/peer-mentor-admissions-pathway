@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import janeProfile from '@/assets/profile-jane.jpg';
-import alexProfile from '@/assets/profile-alex.jpg';
-import sarahProfile from '@/assets/profile-sarah.jpg';
+import janeProfile from '@/assets/profile-maanya.jpeg';
+import alexProfile from '@/assets/profile-echo.jpeg';
+import sarahProfile from '@/assets/profile-rachel.jpeg';
 import linkedinIcon from '@/assets/icons/linkedin.png';
 
 const CounselorCarousel = () => {
