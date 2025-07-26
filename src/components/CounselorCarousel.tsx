@@ -24,7 +24,7 @@ const CounselorCarousel = () => {
       school: "Berkeley'29", 
       major: "Haas - Spieker Business",
       admits: "Berkeley - Haas, Cornell Dyson, USC Marshall, Cypress College",
-      blurb: "Hi, I’m Ethan — and after navigating one of the most competitive admissions cycles in history, I know college admissions like the back of my hand. From founding a podcast that reached 170K+ views, to publishing a children’s book, to earning national awards in public speaking and data modeling, I’ve learned what top schools really look for. I’m here to help you tell your story in a way that gets you in. Let’s get to work on your dream school.",
+      blurb: "Hi, I’m Ethan and I know college admissions like the back of my hand. From founding a podcast that reached 170K+ views, to publishing a children’s book, to earning national awards in public speaking and data modeling, I’ve learned what top schools really look for. After taking part in the toughest college cycle to date, I’m confident ill get you into your dream school!",
       rate: "$75/hr",
       photo: alexProfile,
       linkedinUrl: "https://www.linkedin.com/in/ethan-cho-a2b74b270/",
