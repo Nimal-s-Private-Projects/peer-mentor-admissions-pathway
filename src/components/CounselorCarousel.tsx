@@ -13,7 +13,7 @@ const CounselorCarousel = () => {
       school: "Harvard '29",
       major: "Computer Science",
       admits: "Harvard, Carnegie Melon, Northwestern, UCLA",
-      blurb: "Hi, I'm Maanya— I'm interested in exploring the intersection of technology and public policy/human behavior in order to drive real-world impact. In the fall, I plan to study CS with a secondary in Economics.",
+      blurb: "Hi, I’m Maanya, a rising freshman at Harvard College studying CS and Economics. I’m interested in exploring the intersection of technology with public policy and human behavior in order to drive real-world impact. As a first-gen student, I know it can get hard when you have no idea where to even start on your college apps. Don’t worry—the application process isn’t as daunting as it seems, and we’re here to help!",
       rate: "$75/hr",
       photo: janeProfile,
       linkedinUrl: "https://www.linkedin.com/in/maanyaarora07/",
