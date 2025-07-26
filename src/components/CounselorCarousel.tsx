@@ -17,7 +17,7 @@ const CounselorCarousel = () => {
       rate: "$75/hr",
       photo: janeProfile,
       linkedinUrl: "https://www.linkedin.com/in/maanyaarora07/",
-      bookingUrl: "https://calendly.com/periasamynimal/30min"
+      bookingUrl: "https://calendly.com/maanyaarora10/30min"
     },
     {
       name: "Ethan Cho",
