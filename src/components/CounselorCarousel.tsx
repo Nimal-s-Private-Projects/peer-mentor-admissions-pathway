@@ -17,7 +17,7 @@ const CounselorCarousel = () => {
       rate: "$75/hr",
       photo: janeProfile,
       linkedinUrl: "https://www.linkedin.com/in/maanyaarora07/",
-      bookingUrl: "https://calendly.com/maanyaarora10/30min"
+      bookingUrl: "https://cal.com/maanyaarora/30min"
     },
     {
       name: "Ethan Cho",
@@ -28,18 +28,18 @@ const CounselorCarousel = () => {
       rate: "$75/hr",
       photo: alexProfile,
       linkedinUrl: "https://www.linkedin.com/in/ethan-cho-a2b74b270/",
-      bookingUrl: "https://calendly.com/periasamynimal/30min"
+      bookingUrl: "https://cal.com/ethan-cho-tfmvpr/30min"
     },
     {
       name: "Rachel Yoon",
       school: "Yale '29",
       major: "Chemical Engineering",
       admits: "Yale, Princeton, Berkeley, Carengie Melon",
-      blurb: "Hey there, Im Rachel— I led soil-lead research in OC, founded a countywide environmental justice committee, preside over my debate team, and design freelance—honing my strengths in public speaking, leadership, and design.",
+      blurb: "Hi, I’m Rachel! I went from planning to attend community college (a great option too!) to getting into Yale and Princeton — and I’ll show you how I did it.",
       rate: "$75/hr", 
       photo: sarahProfile,
       linkedinUrl: "https://www.linkedin.com/in/racheljiyoon/",
-      bookingUrl: "https://calendly.com/periasamynimal/30min"
+      bookingUrl: "https://cal.com/rachel-yoon-fbryxt/15min"
     }
   ];
 
